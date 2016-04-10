@@ -279,7 +279,7 @@ class BipartiteGraph{
 		return false;
 	}
 	/**
-	 * @return a perfect match of a bipartite graph using Kuhn¨CMunkres algorithm
+	 * @return a perfect match of a bipartite graph using KuhnÂ¨CMunkres algorithm
 	 */
 	public int km(){
 		for (int i = 0; i < singlePartVertexNum; i++) {
@@ -383,7 +383,7 @@ public class GeolifeDA {
 		int[] biGraphPerfectMatch = bipartiteGraph.getPerfectMatch();
 		System.out.print("The perfect match for bipartite graph is: ");
 		printIntArray(biGraphPerfectMatch);
-		System.out.print("The hit rate of de-anonymizing Geolife Dataset is: ");
+		System.out.print("The hit rate of de-anonymizing Geolife Dataset were: ");
 		System.out.println(bipartiteGraph.getHitRate());
 	}
 }
