@@ -383,7 +383,7 @@ public class GeolifeDA {
 		int[] biGraphPerfectMatch = bipartiteGraph.getPerfectMatch();
 		System.out.print("The perfect match for bipartite graph is: ");
 		printIntArray(biGraphPerfectMatch);
-		System.out.print("The hit rate of de-anonymizing Geolife Dataset is: ");
+		System.out.print("The hit rate of de-anonymizing Geolife Dataset are: ");
 		System.out.println(bipartiteGraph.getHitRate());
 	}
 }
